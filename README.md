@@ -24,7 +24,7 @@ The Excel files used for data cleaning can be found here:
 ### Financial Data
 Financial data from 2015–2025 was obtained from [Netflix's SEC Filings](https://ir.netflix.net/financials/sec-filings/default.aspx). Netflix's annual 10-K and quarterly 10-Q filings were used to collect the financial data. Some financial fields were no longer reported in later years; where possible, missing values were calculated using other reported figures. Values that could not be reliably calculated were left blank.
 
-The [cleaned excel file](data/Netflix_Analysis_Data.xlsx)) contains the financial dataset along with column descriptions, a color key, example screenshots of the source data, and the equations used for calculated values.
+The [cleaned excel file](data/Netflix_Analysis_Data.xlsx) contains the financial dataset along with column descriptions, a color key, example screenshots of the source data, and the equations used for calculated values.
 
 ### Engagement Data
 Engagement data from 2023–2025 was obtained from the [What's on Netflix Engagement Report Search](https://www.whats-on-netflix.com/most-popular/netflix-engagement-report-search/). Half-year reporting periods were used to make changes in engagement over time easier to compare and visualize.
