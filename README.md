@@ -58,27 +58,29 @@ The Top 10 dataset required less cleaning because the original data was already 
 
 
 ## Power BI Dashboards
+Power BI was used to create three interactive dashboard pages focused on Netflix's financial performance, viewer engagement, and weekly Top 10 performance.
 
 ### Financial Performance Dashboard
 
 ![Netflix Financial Dashboard](images/financial_dashboard.png)
 
-Analyzes Netflix's financial performance from 2015–2025, including
-revenue, profitability, cash flow, assets, liabilities, and content assets.
-
-[View the interactive financial dashboard in Power BI](dashboards/Netflix_Dashboards.pbix)
+Provides an overview of Netflix's financial performance from 2015–2025, including revenue, profitability, cash flow, assets, liabilities, and content assets. The dashboard includes interactive year filtering to explore changes over time.
 
 ### Engagement Dashboard
 
 ![Netflix Engagement Dashboard](images/engagement_dashboard.png)
 
-[View the interactive engagement dashboard in Power BI](dashboards/Netflix_Dashboards.pbix)
+Explores Netflix viewer engagement from 2023–2025, including hours viewed, views, content type, and title-level performance. Interactive filters allow engagement trends to be compared across reporting periods and content types.
 
 ### Top 10 Dashboard
 
 ![Netflix Top 10 Dashboard](images/top10_dashboard.png)
 
-[View the interactive top 10 dashboard in Power BI](dashboards/Netflix_Dashboards.pbix)
+Analyzes Netflix's weekly global Top 10 performance from 2022–2025, including rankings, weekly viewing activity, category performance, and the titles with the strongest Top 10 presence.
+
+### Power BI File
+
+All three dashboard pages are contained [here](dashboards/Netflix_Dashboards.pbix).
 
 ## SQL Analysis
 
