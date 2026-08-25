@@ -46,7 +46,10 @@ After cleaning the Hours Viewed and Views datasets separately, they were combine
 ### Top 10 Data
 The Top 10 dataset required less cleaning because the original data was already well structured. Since this project focuses on 2022–2025, records from 2026 were removed. Data types were also reviewed and adjusted where necessary to ensure the fields could be analyzed correctly.
 
-The Python scripts used to clean and prepare both the Engagement and Top 10 datasets are included below.
+The Python notebooks used for data cleaning can be found here:
+
+- [Engagement Data Cleaning Notebook](notebooks/Engagement_data_cleaning.ipynb)
+- [Top 10 Data Cleaning Notebook](notebooks/Top10_data_cleaning.ipynb)
 
 ## Power BI Dashboards
 
