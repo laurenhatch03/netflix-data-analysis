@@ -16,23 +16,33 @@ The purpose of this project is to analyze Netflix’s financial performance, vie
 
 ## Data Collection & Sources
 
-### Financial Data
-Financial data from 2015–2025 was obtained from Netflix's SEC Filings. Netflix's annual 10-K and quarterly 10-Q filings were used to collect the financial data. Some financial fields were no longer reported in later years; where possible, missing values were calculated using other reported figures. Values that could not be reliably calculated were left blank.
+The Excel files used for data cleaning can be found here:
 
-The Excel workbook contains the financial dataset along with column descriptions, a color key, example screenshots of the source data, and the equations used for calculated values.
+- [Final Cleaned Tables](data/Netflix_Analysis_Data.xlsx)
+- [Raw Data](data/Netflix_Raw_Data.xlsx)
+
+### Financial Data
+Financial data from 2015–2025 was obtained from [Netflix's SEC Filings](https://ir.netflix.net/financials/sec-filings/default.aspx). Netflix's annual 10-K and quarterly 10-Q filings were used to collect the financial data. Some financial fields were no longer reported in later years; where possible, missing values were calculated using other reported figures. Values that could not be reliably calculated were left blank.
+
+The [cleaned excel file](data/Netflix_Analysis_Data.xlsx)) contains the financial dataset along with column descriptions, a color key, example screenshots of the source data, and the equations used for calculated values.
 
 ### Engagement Data
-Engagement data from 2023–2025 was obtained from the What's on Netflix Engagement Report Search. Half-year reporting periods were used to make changes in engagement over time easier to compare and visualize.
+Engagement data from 2023–2025 was obtained from the [What's on Netflix Engagement Report Search](https://www.whats-on-netflix.com/most-popular/netflix-engagement-report-search/). Half-year reporting periods were used to make changes in engagement over time easier to compare and visualize.
 
-The raw data was cleaned and prepared in Python using pandas. The Python cleaning script is included in this repository. Both the raw and cleaned data are available in the Excel workbook, along with column descriptions, calculations used to create additional fields, and a title reference table for the final combined engagement dataset.
+The raw data was cleaned and prepared in Python using pandas. The Python cleaning script is included in this repository. Both the raw and cleaned data are available in the [data folder](data), along with column descriptions, calculations used to create additional fields, and a title reference table for the final combined engagement dataset.
 
 ### Top 10 Data
-Weekly global Top 10 data was obtained directly from Netflix's Top 10 dataset. The raw dataset was cleaned and prepared in Python using pandas, and the cleaning script is included in this repository.
+Weekly global Top 10 data was obtained directly from [Netflix's Top 10 dataset](https://www.netflix.com/tudum/top10/data/all-weeks-global.xlsx). The raw dataset was cleaned and prepared in Python using pandas, and the cleaning script is included in this repository.
 
-Both the original raw data and the final cleaned dataset are available in the Excel workbook. Column descriptions for the final dataset are also included for reference.
+Both the original raw data and the final cleaned dataset are available in the [data folder](data). Column descriptions for the final dataset are also included for reference.
 
 ## Data Cleaning & Preparation
-After the data was collected, the Excel workbook was imported into Python for cleaning and preparation. Since the financial dataset was manually collected and organized, it did not require additional cleaning in Python.
+After the data was collected, the raw data was imported into Python for cleaning and preparation. Since the financial dataset was manually collected and organized, it did not require additional cleaning in Python.
+
+The Python notebooks used for data cleaning can be found here:
+
+- [Engagement Data Cleaning Notebook](notebooks/Engagement_data_cleaning.ipynb)
+- [Top 10 Data Cleaning Notebook](notebooks/Top10_data_cleaning.ipynb)
 
 ### Engagement Data
 The engagement data originally consisted of two separate datasets: one reporting hours viewed and another reporting number of views. Both datasets went through the same general cleaning process.
@@ -46,10 +56,6 @@ After cleaning the Hours Viewed and Views datasets separately, they were combine
 ### Top 10 Data
 The Top 10 dataset required less cleaning because the original data was already well structured. Since this project focuses on 2022–2025, records from 2026 were removed. Data types were also reviewed and adjusted where necessary to ensure the fields could be analyzed correctly.
 
-The Python notebooks used for data cleaning can be found here:
-
-- [Engagement Data Cleaning Notebook](notebooks/Engagement_data_cleaning.ipynb)
-- [Top 10 Data Cleaning Notebook](notebooks/Top10_data_cleaning.ipynb)
 
 ## Power BI Dashboards
 
