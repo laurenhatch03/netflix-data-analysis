@@ -70,17 +70,18 @@ Provides an overview of Netflix's financial performance from 2015–2025, includ
 
 ![Netflix Engagement Dashboard](images/engagement_dashboard.png)
 
-Explores Netflix viewer engagement from 2023–2025, including hours viewed, views, content type, and title-level performance. Interactive filters allow engagement trends to be compared across reporting periods and content types.
+Explores Netflix's viewer engagement from 2023–2025, including hours viewed, views, content type, and title-level performance. Interactive filters allow engagement trends to be compared across reporting periods and content types.
 
 ### Top 10 Dashboard
 
 ![Netflix Top 10 Dashboard](images/top10_dashboard.png)
 
-Analyzes Netflix's weekly global Top 10 performance from 2022–2025, including rankings, weekly viewing activity, category performance, and the titles with the strongest Top 10 presence.
+Analyzes Netflix's weekly global Top 10 performance from 2022–2025, including rankings, weekly viewing activity, category performance, and the titles with the longest Top 10 presence.
 
 ### Power BI File
 
-All three dashboard pages are contained [here](dashboards/Netflix_Dashboards.pbix).
+All three dashboard pages are contained in a single Power BI report.
+[View the Power BI report](dashboards/Netflix_Dashboards.pbix).
 
 ## SQL Analysis
 
