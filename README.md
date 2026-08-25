@@ -29,10 +29,10 @@ The [cleaned excel file](data/Netflix_Analysis_Data.xlsx) contains the financial
 ### Engagement Data
 Engagement data from 2023–2025 was obtained from the [What's on Netflix Engagement Report Search](https://www.whats-on-netflix.com/most-popular/netflix-engagement-report-search/). Half-year reporting periods were used to make changes in engagement over time easier to compare and visualize.
 
-The raw data was cleaned and prepared in Python using pandas. The Python cleaning script is included in this repository. Both the raw and cleaned data are available in the [data folder](data), along with column descriptions, calculations used to create additional fields, and a title reference table for the final combined engagement dataset.
+The raw data was cleaned and prepared in Python using pandas. The Python cleaning notebook is included in this repository. Both the raw and cleaned data are available in the [data folder](data), along with column descriptions, calculations used to create additional fields, and a title reference table for the final combined engagement dataset.
 
 ### Top 10 Data
-Weekly global Top 10 data was obtained directly from [Netflix's Top 10 dataset](https://www.netflix.com/tudum/top10/data/all-weeks-global.xlsx). The raw dataset was cleaned and prepared in Python using pandas, and the cleaning script is included in this repository.
+Weekly global Top 10 data was obtained directly from [Netflix's Top 10 dataset](https://www.netflix.com/tudum/top10/data/all-weeks-global.xlsx). The raw dataset was cleaned and prepared in Python using pandas, and the cleaning notebook is included in this repository.
 
 Both the original raw data and the final cleaned dataset are available in the [data folder](data). Column descriptions for the final dataset are also included for reference.
 
