@@ -58,6 +58,11 @@ The Top 10 dataset required less cleaning because the original data was already 
 
 
 ## Power BI Dashboards
+![Netflix Financial Dashboard](images/financial_dashboard.png)
+
+![Netflix Engagement Dashboard](images/engagement_dashboard.png)
+
+![Netflix Top10 Dashboard](images/top10_dashboard.png)
 
 ## SQL Analysis
 
