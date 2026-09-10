@@ -101,7 +101,7 @@ SQL was used to further analyze the cleaned Netflix datasets and identify trends
 * Identified titles with the highest overall viewer engagement
 * Compared reported views with calculated views where applicable
 
-### [Top 10 Analysis](SQl/top10_analysis.sql) 
+### [Top 10 Analysis](SQL/top10_analysis.sql) 
 
 * Identified titles with the most cumulative weeks in the Global Top 10
 * Ranked titles by total weekly hours viewed
