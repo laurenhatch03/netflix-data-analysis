@@ -88,3 +88,44 @@ All three dashboard pages are contained in a single Power BI report.
 
 ## Key Findings
 
+The analysis shows a Netflix business that has expanded significantly over the past decade while becoming increasingly profitable and leveraging a relatively small group of highly successful titles to drive substantial viewer engagement.
+
+### Financial Performance
+
+* **Netflix experienced substantial long-term revenue growth.** Annual revenue increased from approximately **$6.8 billion in 2015 to $45.2 billion in 2025**, representing more than a sixfold increase over the period.
+* **Profitability improved alongside revenue growth.** Operating income increased from approximately **$306 million in 2015 to $13.3 billion in 2025**, while net income increased from approximately **$123 million to $11.0 billion**.
+* **Margins have expanded considerably.** Netflix's operating margin reached **29.5% in 2025**, compared with 17.8% in 2022 and 20.6% in 2023. This indicates that recent growth has translated into stronger operating leverage rather than simply higher revenue.
+* The SQL analysis reinforced this trend by comparing **year-over-year revenue growth, gross margin, operating margin, net margin, and cash flow against capital expenditures** to evaluate not only growth but the quality of that growth.
+
+### Viewer Engagement
+
+* The engagement analysis covering **2023–2025** shows that Netflix's viewing activity is highly concentrated around a relatively small number of successful titles. The underlying engagement dataset combines both **hours viewed and views** and was transformed into consistent half-year reporting periods for comparison.
+* **TV content can generate substantial cumulative viewing hours because of its longer runtimes and episodic structure**, while movies can generate very large numbers of individual views. Comparing both metrics provides a more complete picture of content performance than relying on either metric alone.
+* The Python cleaning process was important to making these comparisons possible. Runtime values were converted into minutes, reporting periods were reshaped into rows, title names were standardized, and the separate Hours Viewed and Views datasets were combined into a single analysis-ready engagement dataset.
+* The analysis also demonstrates why **views and hours viewed should not be treated as interchangeable metrics**: a title can generate a high number of views without necessarily producing the highest number of total viewing hours.
+
+### Top 10 Content Performance
+
+* Netflix's Top 10 data shows that **short-term popularity and sustained popularity are different measures of success**. Weekly rank and weekly viewing activity identify titles that create immediate demand, while cumulative weeks in the Top 10 reveal titles with longer-lasting audience interest.
+* **KPop Demon Hunters** is a strong example of sustained performance. By the end of 2025, it had accumulated **28 weeks in the Global Top 10**, substantially longer than many titles appearing in the weekly rankings.
+* The Top 10 dataset also demonstrates the importance of analyzing **category and language separately**. Netflix's weekly rankings distinguish between categories such as English films and non-English TV, allowing content performance to be evaluated within its appropriate competitive group.
+* SQL analysis expands on the Power BI visualizations by ranking titles according to **total viewing hours, total views, average weekly rank, number of #1 rankings, and weeks spent in the Top 10**. This provides multiple definitions of "success" rather than relying on a single ranking.
+
+### Overall Business Takeaway
+
+Taken together, the analysis suggests that Netflix's growth is supported by **two complementary strengths: improving financial efficiency and strong content engagement**. Financial results show substantial revenue growth accompanied by expanding profitability, while the engagement and Top 10 analyses show that individual titles can generate significant and sustained audience demand.
+
+The analysis also highlights an important distinction between **volume and quality of performance**. Revenue growth alone does not explain Netflix's improving financial position, just as appearing in the Top 10 once does not necessarily indicate sustained content success. Looking across financial metrics, viewing behavior, weekly rankings, and title-level performance provides a more complete picture of Netflix's business.
+
+### Analytical Approach
+
+This project used multiple tools to approach the same business questions from different perspectives:
+
+* **Excel** — data collection, organization, documentation, calculations, and preparation
+* **Python** — data cleaning, reshaping, standardization, and dataset preparation
+* **Power BI** — interactive dashboards for financial performance, engagement, and Top 10 trends
+* **SQL** — deeper analysis using aggregations, window functions, CTEs, rankings, growth calculations, and profitability metrics
+
+The combination of these tools created an end-to-end workflow from **raw data → cleaned datasets → exploratory analysis → interactive visualization → deeper SQL analysis → business insights**.
+
+
