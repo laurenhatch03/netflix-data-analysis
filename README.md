@@ -86,6 +86,49 @@ All three dashboard pages are contained in a single Power BI report.
 
 ## SQL Analysis
 
+SQL was used to further analyze the cleaned Netflix datasets and identify trends across financial performance, viewer engagement, and Top 10 content performance.
+
+### Financial Analysis
+
+* Calculated year-over-year revenue growth from 2015–2025
+* Analyzed gross, operating, and net profit margins
+* Compared operating cash flow with capital expenditures
+* Examined long-term changes in revenue, profitability, cash flow, assets, and liabilities
+
+### Engagement Analysis
+
+* Ranked titles by total hours viewed and total views
+* Compared engagement across Movies and TV Shows
+* Analyzed average engagement by reporting period
+* Identified titles with the highest overall viewer engagement
+* Compared reported views with calculated views where applicable
+
+### Top 10 Analysis
+
+* Identified titles with the most cumulative weeks in the Global Top 10
+* Ranked titles by total weekly hours viewed
+* Ranked titles by total weekly views
+* Analyzed average weekly ranking
+* Counted the number of #1 rankings achieved by each title
+* Compared Movies and TV Shows within the Global Top 10
+* Analyzed Top 10 performance by year
+* Identified titles with the highest average weekly viewing activity
+
+### SQL Techniques Used
+
+The analysis used:
+
+* `SELECT`, `WHERE`, `GROUP BY`, and `ORDER BY`
+* Aggregate functions such as `SUM()`, `AVG()`, `MAX()`, and `COUNT()`
+* `HAVING` for filtering aggregated results
+* `CASE` statements for categorization
+* Common Table Expressions (CTEs)
+* Window functions such as `RANK()`
+* Joins and calculated fields
+
+The SQL analysis helped turn the cleaned datasets into specific, measurable business insights and provided another way to validate findings from the Python and Power BI analysis.
+
+
 ## Key Findings
 
 The analysis shows a Netflix business that has expanded significantly over the past decade while becoming increasingly profitable and leveraging a relatively small group of highly successful titles to drive substantial viewer engagement.
