@@ -1,4 +1,8 @@
-August 16, 2026 
+# Project Status 
+
+Started: August 16, 2026 
+
+Completed: September 10, 2026
 
 # Netflix Data Analysis
 
