@@ -1,10 +1,8 @@
-# Project Status 
-
-Started: August 16, 2026 
-
-Completed: September 10, 2026
 
 # Netflix Data Analysis
+
+**Project Timeline:** August 16, 2026 – September 10, 2026  
+**Status:** Completed
 
 ## Project Overview
 The purpose of this project is to analyze Netflix’s financial performance, viewer engagement, and content performance to develop a better understanding of the company and its trends. Data was first collected and compiled from multiple sources, which are documented below. The data was then cleaned and prepared using Python and pandas. Next, Power BI was used to create interactive dashboards and visualize key trends within each dataset. SQL was then used to further explore and analyze the data. Observations, decisions, and conclusions made throughout the project are documented along the way.
