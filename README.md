@@ -1,9 +1,5 @@
 August 16, 2026 
 
-## Project Status
-
-🚧 Work in Progress
-
 # Netflix Data Analysis
 
 ## Project Overview
