@@ -86,14 +86,14 @@ All three dashboard pages are contained in a single Power BI report.
 
 SQL was used to further analyze the cleaned Netflix datasets and identify trends across financial performance, viewer engagement, and Top 10 content performance.
 
-### Financial Analysis
+### [Financial Analysis](SQL/financial_analysis.sql) 
 
 * Calculated year-over-year revenue growth from 2015–2025
 * Analyzed gross, operating, and net profit margins
 * Compared operating cash flow with capital expenditures
 * Examined long-term changes in revenue, profitability, cash flow, assets, and liabilities
 
-### Engagement Analysis
+### [Engagement Analysis](SQL/engagement_analysis.sql) 
 
 * Ranked titles by total hours viewed and total views
 * Compared engagement across Movies and TV Shows
@@ -101,7 +101,7 @@ SQL was used to further analyze the cleaned Netflix datasets and identify trends
 * Identified titles with the highest overall viewer engagement
 * Compared reported views with calculated views where applicable
 
-### Top 10 Analysis
+### [Top 10 Analysis](SQl/top10_analysis.sql) 
 
 * Identified titles with the most cumulative weeks in the Global Top 10
 * Ranked titles by total weekly hours viewed
