@@ -99,7 +99,6 @@ SQL was used to further analyze the cleaned Netflix datasets and identify trends
 * Compared engagement across Movies and TV Shows
 * Analyzed average engagement by reporting period
 * Identified titles with the highest overall viewer engagement
-* Compared reported views with calculated views where applicable
 
 ### [Top 10 Analysis](SQL/top10_analysis.sql) 
 
